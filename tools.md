@@ -1,6 +1,6 @@
 # Tools
 
-# <span style="color:green"> ✅ **ADOPT** </span>
+# ✅ **ADOPT**
 
 ---
 
@@ -82,7 +82,7 @@ Hemnet only uses a subset of its functionally namely: Cloud Messaging, Remote Co
 
 Apollo Android is a GraphQL client that generates Java and Kotlin models from GraphQL queries. These models give you a type-safe API to work with GraphQL servers. Apollo helps you keep your GraphQL query statements together, organized, and easy to access.
 
-# <span style="color:orange"> 🔬️ **ASSESS** </span>
+# 🔬️ **ASSESS** 
 
 ---
 
@@ -94,7 +94,7 @@ Notebooks are one-click Jupyter notebooks that can be spun up quickly. The under
 
 Apple's own CI service that will be tightly integrated with Xcode. Currently in Beta, should assess when it is released since there are some potential benefits over running CI through Bitrise.
 
-# <span style="color:red"> 🛑 **HOLD**</span>
+#  🛑 **HOLD**
 
 ---
 

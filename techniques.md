@@ -1,6 +1,6 @@
 # Techniques
 
-# <span style="color:green"> ✅ **ADOPT** </span>
+# ✅ **ADOPT**
 
 ---
 
@@ -35,14 +35,14 @@ added.
 
 Hemnet Component Library serves styles and React components to Hemnet’s different web applications.
 
-# <span style="color:green">🧪 **TRIAL**</span>
+# 🧪 **TRIAL**
 
 ---
 
 ### 🧪 Datadog Logs 
 Datadog Logs looks like it could be a valuable platform for shipping logs to and make them searchable. It should also integrate well with their APM and watchdogs, which should help us debug issues even more. However, it's still untested and the costs of using this is still unknown. Hemnet should find cases where this can be tested in order to find out more.
 
-# <span style="color:orange"> 🔬️ **ASSESS** </span>
+# 🔬️ **ASSESS**
 
 ---
 
@@ -50,7 +50,7 @@ Datadog Logs looks like it could be a valuable platform for shipping logs to and
 
 Not all web applications are going to be moved to Next.js. For example, kundportalen we see no benefit of moving to a API-driven web application and we will continue to server-side render props to the components. We do however need to optimize the way we write React in Rails with ease so that we utilise our React component library. This means we should investigate in techniques and tools to bridge this gap. E.g. Inertia (tracked separately on the radar)
 
-# <span style="color:red"> 🛑 **HOLD**</span>
+# 🛑 **HOLD**
 
 ---
 

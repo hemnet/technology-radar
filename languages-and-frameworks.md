@@ -1,6 +1,6 @@
 # Languages and Frameworks
 
-# <span style="color:green"> ✅ **ADOPT** </span>
+# ✅ **ADOPT**
 
 ---
 
@@ -76,7 +76,7 @@ A language runtime for running Javascript in the backend. It's a very popular st
 
 A Kotlin implementation of coroutines and cold asynchronous data stream that sequentially emits values and completes normally or with an exception.
 
-# <span style="color:green">🧪 **TRIAL**</span>
+# 🧪 **TRIAL**
 
 ---
 
@@ -84,7 +84,7 @@ A Kotlin implementation of coroutines and cold asynchronous data stream that seq
 
 Typescript is a superset of Javascript developed by Microsoft (and others) that adds an optional static type system to Javascript, which - if the assertion is true - should help maintainability of large Javascript codebases and make it easier to develop in it.
 
-# <span style="color:orange"> 🔬️ **ASSESS** </span>
+# 🔬️ **ASSESS**
 
 ---
 
@@ -104,7 +104,7 @@ See “Integrating React in the conventional Rails monolith” on the radar for 
 
 www.getdbt.com is a framework for writing modular sql-queries with software engineering practices. Such as testing, versioning and so on. It is becoming increaseingly popular within Data Engineering and could be used for transforming data in our Data Warehouse  
 
-# <span style="color:red"> 🛑 **HOLD**</span>
+# 🛑 **HOLD**
 
 ---
 

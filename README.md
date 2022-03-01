@@ -4,19 +4,19 @@ We document Hemnet’s technology landscape with a Technology Radar. It covers t
 
 ## Assessment definitions
 
-## <span style="color:green"> ✅ **ADOPT** </span>
+## ✅ **ADOPT** 
 
 - Technologies with broad adoption, in which Hemnet is willing to invest long-term.
 
-## <span style="color:green">🧪 **TRIAL**</span>
+## 🧪 **TRIAL**
 
  - Captures all current experiments in production.
 
-## <span style="color:orange"> 🔬️ **ASSESS** </span>
+## 🔬️ **ASSESS**
 
 - Active, non-production assessments of promising technologies and trends.
 
-## <span style="color:red"> 🛑 **HOLD**</span>
+##  🛑 **HOLD**
 
  - Discouraged from broad adoption where Hemnet is not willing to invest further; no new applications may use this technology.
 

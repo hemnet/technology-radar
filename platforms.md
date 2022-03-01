@@ -1,6 +1,6 @@
 # Platforms
 
-# <span style="color:green"> ✅ **ADOPT** </span>
+# ✅ **ADOPT**
 
 ---
 
@@ -72,7 +72,7 @@ Kinesis is a managed data stream which can be used to collect and process any ki
 
 Redshift is column based database designed for warehousing large amount of data. Redshift has proven itself to be capable to store and transform large amount of data. We use this database to store tracking data and we're evaluating its capabilities.
 
-# <span style="color:green">🧪 **TRIAL**</span>
+# 🧪 **TRIAL**
 
 ---
 
@@ -85,7 +85,7 @@ Serverless (framework)
 
 A framework for building serverless applications. It takes care of infrastructure provisioning, packaging and deployment of the application as well as tools for running your serverless services locally. It is widely used with around 35k stars on Github and a rich eco system with plugins to extend the functionality. It is vendor agnostic with support for all major cloud providers. AWS' equivalent is Serverless Application Model (AWS SAM).
 
-# <span style="color:orange"> 🔬️ **ASSESS** </span>
+# 🔬️ **ASSESS**
 
 ---
 
@@ -101,7 +101,7 @@ Cloudflare Workers Sites is a product for serving static assets. Hemnet runs /ut
 
 Amazon SageMaker is a fully managed service that provides every developer and data scientist with the ability to build, train, and deploy machine learning (ML) models quickly. SageMaker removes the heavy lifting from each step of the machine learning process to make it easier to develop high quality models.
 
-# <span style="color:red"> 🛑 **HOLD**</span>
+# 🛑 **HOLD**
 
 ---
 
