@@ -27,3 +27,5 @@ The Technology Radar is open for contribution by all teams at Hemnet and depends
 [Techniques](techniques.md)
 
 [Tools](tools.md)
+
+[Raw data](HemnetRadar.json)
