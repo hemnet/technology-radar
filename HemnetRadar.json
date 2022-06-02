@@ -1,0 +1,632 @@
+[
+  {
+    "name": "GraphQL",
+    "ring": "Adopt",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "GraphQL has proven itself to be a great API design platform for Hemnet, allowing new features to be developed fast, safe fixtures to be used in clients, and for documentation to have a natural place in the APIs. GraphQL is strongly recommended for all internal API traffic."
+  },
+  {
+    "name": "React",
+    "ring": "Adopt",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "React is a framework for building reusable components for the web using a unidirectional data flow which Hemnet has decided to use"
+  },
+  {
+    "name": "RSpec",
+    "ring": "Adopt",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "The de-facto BDD framework for Ruby. Hemnet recommends using RSpec for all Ruby repos to keep the tests written in a consistent style. Prefer RSpec over minitest or Test::Unit."
+  },
+  {
+    "name": "Ruby",
+    "ring": "Adopt",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Hemnet's most used programming language. It's a language that is focused on developer happiness!"
+  },
+  {
+    "name": "Ruby on Rails",
+    "ring": "Adopt",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "A DSL for building web apps in Ruby. It's built on the idea of the smart server that renders finished markup for the clients to consume, rather than having a thin server and heavy clients that render everything. Rails might be on the decline as client-side application increase in size and complexity, but the stability of the platform has proven to work well at Hemnet. Even for client-heavy apps, Rails' ability to easily create RESTful APIs and integrate testing makes it a good platform to work on when using Ruby."
+  },
+  {
+    "name": "Sidekiq",
+    "ring": "Adopt",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Sidekiq is a popular background job runner for Ruby apps. It's using Redis for persistence and integrates very well with Ruby on Rails."
+  },
+  {
+    "name": "Swift (for iOS)",
+    "ring": "Adopt",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "This is the current default and preferred language on iOS. Apple is pushing Swift hard and it is the language that most new iOS developers learn. It provide a number of benefits compared to Objective-C in relation to security, performance, ease of use and developer happiness etc."
+  },
+  {
+    "name": "Terraform",
+    "ring": "Adopt",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Terraform is a framework for handling infrastructure as code. It's well-used and powerful, but at the same time it has a tendency to lead to infrastructure living in independent places from the applications that it is driving. Hemnet is happy with it, but it's not obvious that one should use it over something else."
+  },
+  {
+    "name": "Testing Library",
+    "ring": "Adopt",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "A light-weight solution for testing web pages by querying and interacting with DOM nodes (whether simulated with JSDOM/Jest or in the browser)"
+  },
+  {
+    "name": "Android Jetpack",
+    "ring": "Adopt",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "A suite of libraries, tools, and guidance from Google to help developers write high-quality Android apps easier."
+  },
+  {
+    "name": "Dagger(Hilt)",
+    "ring": "Adopt",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "A fully static, compile-time dependency injection framework for both Java and Android."
+  },
+  {
+    "name": "Jest",
+    "ring": "Adopt",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "A testing framework for Javascript, which integrates well with other tools and framworks we use at Hemnet."
+  },
+  {
+    "name": "Kotlin (for Android)",
+    "ring": "Adopt",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "A cross-platform, statically typed, general-purpose programming language with type inference. Kotlin is designed to interoperate fully with Java, and the JVM version of its standard library depends on the Java Class Library,[3] but type inference allows its syntax to be more concise. It's also the de facto programming language for mordan Android development"
+  },
+  {
+    "name": "Combine",
+    "ring": "Adopt",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "New reactive framework released in 2019 by Apple. It is comparable to RxSwift but lack a lot of the rich features RxSwift provide. Combine is heavily used by Apple in their SwiftUI examples and it is clear that this is a technology / pattern that will be increasingly important over time."
+  },
+  {
+    "name": "SwiftUI",
+    "ring": "Adopt",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "New declarative UI framework released in 2019. It is supported from iOS 13 and forward. SwiftUI is a significant change from existing UI patterns on iOS. As of spring 2020 this should be considered as a immature technology. It is something that could be very useful in the long term since it enables new interesting workflows and a much improved way to think structure UI code and reason about different UI states etc."
+  },
+  {
+    "name": "Next.js",
+    "ring": "Adopt",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "A React framework with hybrid static & server rendering, TypeScript support, smart bundling. One of the most (seemingly) mature and stable frameworks out there. Hemnet is currenly in the transition of building our consumer facing web applications with it."
+  },
+  {
+    "name": "NodeJS",
+    "ring": "Adopt",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "A language runtime for running Javascript in the backend. It's a very popular stack and it is built on top of asynchronous I/O, which should lead to great performance in I/O-heavy applications, which is usually almost all web apps. Hemnet uses it in a few applications, e.g. image scaling, map tile generation and a few infrastructure related tools. It is however not to Adopt for general purpose web applications/APIs."
+  },
+  {
+    "name": "Python",
+    "ring": "Adopt",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Python is a high-level, interpreted, general-purpose programming language. It is mainly used in our data pipelines."
+  },
+  {
+    "name": "AWS ECS",
+    "ring": "Adopt",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "Amazon's Elastic Container Service is a product that adds bare-bones orchestration of Docker on top of EC2-nodes. It's essentially a programmable interface to the plain docker command, but on top of clusters of machines. It's been working well, but there's limitation to what you can build on top of this and it requires a lot of tooling in order to get some features that are expected of an orchestration layer. Until Hemnet finds a better alternative, or dismisses all alternatives as worse, it will remain as a \"Trial\"."
+  },
+  {
+    "name": "AWS Lambda",
+    "ring": "Adopt",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "Amazon's Lambda is a serverless \"Functions-as-a-service\", that allows deployment of functions to an environment where they can be executed with very high parallelization without requiring explicit machines to be running on stand-by. It seems to be a really good platform for features that have very variable but unpredictable loads over time, but it has other tradeoffs that prevents it from being a clear choice right now. Hemnet will need to run more production loads on this platform in order to learn about the limits and opportunities presented."
+  },
+  {
+    "name": "CircleCI",
+    "ring": "Adopt",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "CircleCI is a managed CI platform which Hemnet switch to during 2020 in favour of Jenkins. It provides a great developer (documentation) experience which allows developers to set it up with minimal involvement from platform team."
+  },
+  {
+    "name": "Cloudflare CDN",
+    "ring": "Adopt",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "Cloudflare has a large CDN that has excellent performance and pricing. This service is one of the core components in Hemnets infrastructure and have proven itself to be very reliable."
+  },
+  {
+    "name": "Cloudflare Rate Limiting",
+    "ring": "Adopt",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "Cloudflare has a rate limiting platform that allows us to add rate-limiting on the \"network layer\", which in this case means that we can protect ourselves without having offenders even reach our applications. This is really powerful for stopping bad actors, but it's also unclear how it could be used when application-level logic is needed to determine how to scope clients or to identify to certain behavior to limit. It's also something that cannot be configured in the applications directly as it must be set on the Cloudflare web UI rather than live in a codebase."
+  },
+  {
+    "name": "Elasticsearch",
+    "ring": "Adopt",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "Elasticsearch is a capable, modern, and cloud-native full-text search engine."
+  },
+  {
+    "name": "Google Analytics",
+    "ring": "Adopt",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "Google Analytics is a tool for web analytics. It is used to track user interactions and analyse user behaviour."
+  },
+  {
+    "name": "Google Tag Manager",
+    "ring": "Adopt",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "Manage JavaScript-tags without editing code. Google Tag Manager delivers simple, reliable, easily integrated tag management solutions."
+  },
+  {
+    "name": "Memcached",
+    "ring": "Adopt",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "Memcached is a network attached cache placed in RAM. It is very fast and simple for the most common cache loads. Adopt this if you just want a simple Key-Value store for non-persistent cache of String-like values."
+  },
+  {
+    "name": "PostgreSQL",
+    "ring": "Adopt",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "PostgreSQL is a powerful relational database system that has proven itself again and again at Hemnet. It's one of the surest picks on this entire Tech Radar."
+  },
+  {
+    "name": "Redis",
+    "ring": "Adopt",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "Redis is a powerful Key-Value database that has support for several value types, including Sets, Hashes, and Lists. While the cases where a simple key-value database clearly wins over a full relational or document-oriented database are few, when you do need a fast key-value database Redis is very hard to beat."
+  },
+  {
+    "name": "Snowplow",
+    "ring": "Adopt",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "Snowplow is a data collection platform that tracks real time events. We use their stream based platform to track interactions on our site. We have tracked interactions with this system for a couple of months now and we're tracking its progress."
+  },
+  {
+    "name": "Cloudflare Workers",
+    "ring": "Adopt",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "Cloudflare Workers is Cloudflare's Lambda compute offering running on their edges. It provides 0ms cold starts and runs in V8 isolates. It includes a distributted KV store."
+  },
+  {
+    "name": "Google Maps",
+    "ring": "Adopt",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "Hemnet uses Google Maps for map services (except iOS-app which uses the native Apple Maps). We are however open for exploring other options if the use case is there."
+  },
+  {
+    "name": "AWS DynamoDB for time series data",
+    "ring": "Adopt",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "DynamoDB is a managed key-value database with some extra features. We have used the range index feature to store time series data. With this feature it's possible to fetch a range of values for a given key. We're levering this to store aggregated metrics as time series for our listings. It works well if the quires is well defined but it's harder to support a wide range of queries since DynamoDB is stil just a key-value database."
+  },
+  {
+    "name": "AWS Kinesis",
+    "ring": "Adopt",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "Kinesis is a managed data stream which can be used to collect and process any kind of real time data. We use it to transfer events between components in our event tracking setup and to store searches to S3."
+  },
+  {
+    "name": "AWS Redshift",
+    "ring": "Adopt",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "Redshift is column based database designed for warehousing large amount of data. Redshift has proven itself to be capable to store and transform large amount of data. We use this database to store tracking data and we're evaluating its capabilities."
+  },
+  {
+    "name": "Infrastructure as code",
+    "ring": "Adopt",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "Infrastructure as code is a technique where infrastructure (servers, networks, storage, and so on) are provisioned automatically by tools that read plain text files from a codebase rather than have a human perform it manually. It makes it possible to perform the regular code review, CI/CD pipeline processes, rollbacks, and use version control for infrastructure changes. Hemnet finds this to be very valuable and it has increased velocity and transparency."
+  },
+  {
+    "name": "Managed services",
+    "ring": "Adopt",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "When running software in production, prefer a managed instance rather than running it ourselves. Databases, search engines, and so on. Not having to add these to the list of things we need to maintain internally means we have more time to maintain our actual apps instead. It also removes the need for experts of the software that tweak and adjust as much."
+  },
+  {
+    "name": "Serverless",
+    "ring": "Adopt",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "Serverless is an approach that tries to hide the servers entirely when designing and running apps. Serverless instead focuses on apps, containers, or functions, and talks about deploying these by themselves without mentions of filesystems, hostnames, port numbers, or other things that relate to the actual servers underlying them. On the outset this abstraction seems very useful for app developers as it's fewer things to talk about, and scaling can become a lot more dynamic when the platforms are given more freedom in placement and auto-scaling of the cluster. However, it also leads to less control as the platform will do a lot of things under the hood. There is also no clear \"winner\" when trying to choose a platform; it's still a pretty unexplored territory. Also see: AWS Lambda, WebAssembly, Docker, Serverless (framework), Cloudflare Workers"
+  },
+  {
+    "name": "12-factor applications",
+    "ring": "Adopt",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "The 12-factor Application manifesto is a good guideline on how to design apps and ship them to our environments. Some parts of it has become de-facto standard in the industry, just like how part from the Agile manifesto has been integrated almost everywhere. However, we feel that we want to acknowledge the source of this wisdom and to present a good and easy to read guide on why these decisions exist and how they relate to each other."
+  },
+  {
+    "name": "Retryable Webhooks",
+    "ring": "Adopt",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "Retryable Webhooks is a technique for safer service communication. Instead of sending a message on a message bus with an unclear recipient, send webhooks - simple HTTP GET requests with some payload. In order to increase deliverability safety of this (as you don't want messages to be lost if the receiver is having downtime), you can place a background queue on both the sender and recipient. The sender doesn't send the message directly, instead it places the message on its own queue so it can be retried if the receiver is down. The receiver does not process the message immediately when receiving a message, instead if places the message on its own queue and acknowledges the message to the sender. Now even if the receiver has issues, the message will remain on its own queue until it can be processed successfully and the sender can stop trying to send it. It is very important that these messages remain indempotent, so attach something to the message to allow the receiver to identify the same message again and skip it. This could be a UUID, a version number, or a timestamp depending on the message."
+  },
+  {
+    "name": "Message Buses",
+    "ring": "Adopt",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "Message buses are a technique for asynchcronous communication between services where a message broker receives messages from the sender and redirects them to the receiver with retries if the receiver is not responding. Usually message buses allows pub-sub, fan-out, and fan-in exchanges too for more advanced cases. This is a powerful and useful technique, but Hemnet does not yet have a good case for using this that isn't well-covered by simpler Retryable Webhooks. This decision is sure to change if more app-to-app communication is added."
+  },
+  {
+    "name": "Component Library",
+    "ring": "Adopt",
+    "quadrant": "Techniques",
+    "isNew": "TRUE",
+    "description": "Hemnet Component Library serves styles and React components to Hemnet’s different web applications."
+  },
+  {
+    "name": "Bitrise",
+    "ring": "Adopt",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "Bitrise have proven to be a good alternative to Jenkins for iOS. It removes the need for us to maintain our own OSX environments. We can choose to build and test our iOS applications on all the relevant versions of Xcode and OSX seamlessly (there is some delay when a new version of Xcode or OSX is released)."
+  },
+  {
+    "name": "Codeclimate",
+    "ring": "Adopt",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "Codeclimate is a web-based tool to track code smells, style violations, and so on in a codebase over time. It can suggest places that need refactoring or where you should be extra careful when you work. It usually has useful insights and help us maintain the \"Leave everything a little better than how you found it\" rule when it comes to writing code."
+  },
+  {
+    "name": "Datadog APM",
+    "ring": "Adopt",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "Datadog's Application Performance Monitoring tool is a great tool to track performance of an app with some deep insights on how the platform and code behaves. Its distributed monitoring means that you get deep tracing for backend services where you are able to view the backend service's contribution to end-user response time."
+  },
+  {
+    "name": "Datadog Metrics",
+    "ring": "Adopt",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "Datadog Metrics is an excellent tool to collect custom metrics. It's using the Statsd format, which means it's easy to integrate almost everywhere and doesn't cause any vendor lock-in and is easy to toggle by injecting or not injecting a Statsd URL to the apps. It also integrates with our existing alerting functionality. If you want metrics in your apps at Hemnet, it is hard to beat Datadog Metrics."
+  },
+  {
+    "name": "Dependabot",
+    "ring": "Adopt",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "Dependabot is a tool that helps keep your dependencies up to date. It will inform you when new versions of your dependencies are released and offer up a PR where that dependency is upgraded. If all tests passes you can also make it merge them automatically, if you so wish. Dependabot has been working really well at Hemnet and has prevented a lot of manual work and drifting too far behind on important frameworks. It was also recently aquired by Github so their future and trustworthyness will most likely only improve over time."
+  },
+  {
+    "name": "Docker",
+    "ring": "Adopt",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "Docker has proven to ease deployments and running software in production. Docker also helps with development as we can package software and keep it isolated from the host OS enough to not interfere with other apps."
+  },
+  {
+    "name": "Fastlane",
+    "ring": "Adopt",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "Fastlane is a very mature and popular tool for automating common tasks in iOS projects. We currently use it to automate deploys to iTunes Connect (releases and testflight builds), certificate management, testing, generate code coverage etc."
+  },
+  {
+    "name": "Flipper",
+    "ring": "Adopt",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "Flipper is a backend feature toggle library that Hemnet uses in our main Rails applications. It allows a fine grained rollout control which has proved itself valuable."
+  },
+  {
+    "name": "Prettier",
+    "ring": "Adopt",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "Automatic code formatter for Javascript."
+  },
+  {
+    "name": "Rubocop",
+    "ring": "Adopt",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "A popular linter for Ruby that is actively developed and maintained."
+  },
+  {
+    "name": "Sentry",
+    "ring": "Adopt",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "Exception and error reporting service. Send your errors here to keep them in the same ecosystem as the other apps and make it possible to integrate with other tooling."
+  },
+  {
+    "name": "Android Lint",
+    "ring": "Adopt",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "A linter which scans Android project sources for potential bugs and problems"
+  },
+  {
+    "name": "eslint",
+    "ring": "Adopt",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "A popular linter for Javascript that supports modern versions of JS. This is Hemnet's preferred linter for JS code."
+  },
+  {
+    "name": "SwiftLint",
+    "ring": "Adopt",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "A linter for Swift. Best practice."
+  },
+  {
+    "name": "Webpack",
+    "ring": "Adopt",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "A popular asset manager and compiler for the Javascript ecosystem. It builds bundles that are appropriate to load in a web browser from the source code in the repos."
+  },
+  {
+    "name": "Swift Package Manager",
+    "ring": "Adopt",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "Swift Package Manager is the native dependency management for Swift. It has as of 2020 matured to a state where it is realistic to start using in production."
+  },
+  {
+    "name": "CodeClimate Code Coverage",
+    "ring": "Adopt",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "Code Coverage reporting. Hemnet was previously using CodeCov but migrated to CodeClimate to have a single service."
+  },
+  {
+    "name": "Firebase (iOS and Android)",
+    "ring": "Adopt",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "A mobile and development platform used both by iOS and Android.\nHemnet only uses a subset of its functionally namely: Cloud Messaging, Remote Configuration and Crashlytics."
+  },
+  {
+    "name": "Apollo Client (Android)",
+    "ring": "Adopt",
+    "quadrant": "Tools",
+    "isNew": "TRUE",
+    "description": "Apollo Android is a GraphQL client that generates Java and Kotlin models from GraphQL queries. These models give you a type-safe API to work with GraphQL servers. Apollo helps you keep your GraphQL query statements together, organized, and easy to access."
+  },
+  {
+    "name": "Kotlin Flow / Kotlin coroutines",
+    "ring": "Adopt",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "A Kotlin implementation of coroutines and cold asynchronous data stream that sequentially emits values and completes normally or with an exception."
+  },
+  {
+    "name": "Datadog Logs",
+    "ring": "Trial",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "Datadog Logs looks like it could be a valuable platform for shipping logs to and make them searchable. It should also integrate well with their APM and watchdogs, which should help us debug issues even more. However, it's still untested and the costs of using this is still unknown. Hemnet should find cases where this can be tested in order to find out more."
+  },
+  {
+    "name": "Kotlin Multiplatform Mobile",
+    "ring": "Assess",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Kotlin Multiplatform Mobile allows you to use a single codebase for the business logic of iOS and Android apps. You only need to write platform-specific code"
+  },
+  {
+    "name": "Inertia.js",
+    "ring": "Assess",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "TRUE",
+    "description": "See “Integrating React in the conventional Rails monolith” on the radar for context. Inertia allows you to create fully client-side rendered, single-page apps, without much of the complexity that comes with modern SPAs. It does this by leveraging existing server-side frameworks. InertiaJS would help us if we were to convert an whole \"traditional\" Rails monolith from ERB to React, but we don't see the need to do that anywhere today. For one-off embedded React-components, where using React makes sense, InertiaJS does not help us. There are a few technical issues with using InertiaJS, e g. We can only have one Rails layout, and the library does not play well with rendering other traditional pages. See #7538 in Kundportalen for more information."
+  },
+  {
+    "name": "dbt",
+    "ring": "Assess",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "TRUE",
+    "description": "www.getdbt.com is a framework for writing modular sql-queries with software engineering practices. Such as testing, versioning and so on. It is becoming increaseingly popular within Data Engineering and could be used for transforming data in our Data Warehouse"
+  },
+  {
+    "name": "Kubernetes",
+    "ring": "Assess",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "Kubernetes is a Docker orchestration platform that has a lot of features. Hemnet will be assessing this stack as an alternative to AWS ECS. Kubernetes seems to becoming the most popular stack for running Docker in the cloud, but the backside of it is that the stack is designed for 1000-node magnitudes of large corporations which is counteracted with extra complexity that might be too much for us. Hemnet must evaluate if the extra complexity makes the stack worse than our own stack and how hard it is to maintain."
+  },
+  {
+    "name": "Cloudflare Pages",
+    "ring": "Assess",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "Cloudflare Workers Sites is a product for serving static assets. Hemnet runs /utland and the maintenance site on this."
+  },
+  {
+    "name": "AWS Sagemaker",
+    "ring": "Assess",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "Amazon SageMaker is a fully managed service that provides every developer and data scientist with the ability to build, train, and deploy machine learning (ML) models quickly. SageMaker removes the heavy lifting from each step of the machine learning process to make it easier to develop high quality models."
+  },
+  {
+    "name": "Integrating React in the conventional Rails monolith",
+    "ring": "Assess",
+    "quadrant": "Techniques",
+    "isNew": "TRUE",
+    "description": "Not all web applications are going to be moved to Next.js. For example, kundportalen we see no benefit of moving to a API-driven web application and we will continue to server-side render props to the components. We do however need to optimize the way we write React in Rails with ease so that we utilise our React component library. This means we should investigate in techniques and tools to bridge this gap. E.g. Inertia (tracked separately on the radar)"
+  },
+  {
+    "name": "AWS Sagemaker notebooks",
+    "ring": "Assess",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "Notebooks are one-click Jupyter notebooks that can be spun up quickly. The underlying compute resources are fully elastic, so you can easily dial up or down the available resources and the changes take place automatically in the background without interrupting your work. SageMaker also enables one-click sharing of notebooks."
+  },
+  {
+    "name": "Xcode Cloud",
+    "ring": "Assess",
+    "quadrant": "Tools",
+    "isNew": "TRUE",
+    "description": "Apple's own CI service that will be tightly integrated with Xcode. Currently in Beta, should assess when it is released since there are some potential benefits over running CI through Bitrise."
+  },
+  {
+    "name": "Rust",
+    "ring": "Hold",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Rust is a fairly new programming language for low- to high-level development with focus on stability, performance, and maintainability. Rust is currently being assessed if it would be a good fit for Hemnet's more performance-critical parts, services that need stability, or for smaller software that shouldn't need too much active maintenance."
+  },
+  {
+    "name": "Java (for Android)",
+    "ring": "Hold",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "We're still running parts of the Android app in Java, but are migrating Java-code to Kotlin in a steady pace with the goal to run 100 % Kotlin on Android."
+  },
+  {
+    "name": "jQuery",
+    "ring": "Hold",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "jQuery was a popular Javascript framework for decorating simpler web apps with interactivity and build simpler client-side webapps at a time where browsers had wildly different levels of Javascript conformance and the Javascript APIs were less developed. As the web moved on and new JS APIs were added and old browsers fell out of use, new frameworks took its place. Hemnet does not see a place for jQuery on the modern web and recommends actively trying to remove jQuery from apps still using it."
+  },
+  {
+    "name": "Objective-C",
+    "ring": "Hold",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "We should avoid writing any new features in Objective-C to support the migration to Swift. The only case when Objective-C code should be considered is if it solves an specific problem that otherwise would require significant refactor to move to Swift."
+  },
+  {
+    "name": "Enzyme",
+    "ring": "Hold",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Enzyme is a testing framework for React components. Currently being evaluated against Testing-Framework"
+  },
+  {
+    "name": "IGListKit",
+    "ring": "Hold",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Framework that enables a better way to work with lists in iOS. It is a data driven approach that is developed and maintained by Instagram. Apple introduced an own solution to this in 2019 (diffable datasources) that should be the preferred approach when possible. Considering this we should avoid to use IGListKit in new development unless it provide significant benefits in the short term. We currently use ListKit for most of our views where we display search result in the app."
+  },
+  {
+    "name": "Realm",
+    "ring": "Hold",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Framework for storing data locally on device. We adopted this as an alternative to the Core Data framework that is provided by Apple. The dependency is quite large for our limited use of storing data locally. It might be a good idea to go back to Core Data (or sqlite, custom data types) to reduce the number of dependancies."
+  },
+  {
+    "name": "Retrofit (Android)",
+    "ring": "Hold",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "A type-safe HTTP client for Android and Java"
+  },
+  {
+    "name": "RxJava (Android)",
+    "ring": "Hold",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "A Java-implementation of Reactive Programming programming paradigm that is concerned with data streams and the propagation of change."
+  },
+  {
+    "name": "Gatsby",
+    "ring": "Hold",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "TRUE",
+    "description": ""
+  },
+  {
+    "name": "Jenkins",
+    "ring": "Hold",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "Jenkins is a platform in order to build runners, most popularily used for building CI/CD pipelines. Hemnet uses Jenkings as CD, and as a \"cloud cron\". The CI part has been replaced by CircleCI and we are looking at moving the CD parts away from Jenkins too."
+  },
+  {
+    "name": "RabbitMQ",
+    "ring": "Hold",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "RabbitMQ is one implementation of the AMQP protocol, which is used to build message buses for sending messages between services without the services having to know about each other and without requiring a stable connection to be opened directly to the apps. Hemnet does not have enough cases of service communication to warrant a whole message bus for now, and RabbitMQ has mostly been used to implement background job runners anyway. For this reason, background jobs are recommended to move to Sidekiq instead, and message passing to Retryable Webhooks. Hemnet will re-evaluate these choices in the future if message buses becomes more fitting."
+  },
+  {
+    "name": "Microservices",
+    "ring": "Hold",
+    "quadrant": "Techniques",
+    "isNew": "FALSE",
+    "description": "We embrace a Service Oriented Architecture. We think microservices can be a good fit for certain isolated use cases but there is no driving force in turning Hemnet’s systems into a microservice oriented architecture at the moment. Microservices are designed for larger organisations - far beyond our scale."
+  },
+  {
+    "name": "Kibana / ELK stack",
+    "ring": "Hold",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "The ELK stack is used to track logs and metrics and make them searchable via ES. We are running this with Amazon ElasticSearch Kibana, but are not entirely happy with it. Until the situation between this and Datadog Logs clear up, it is recommended to hold developing new things on top of this."
+  },
+  {
+    "name": "LeakCanary (Android)",
+    "ring": "Hold",
+    "quadrant": "Tools",
+    "isNew": "FALSE",
+    "description": "A memory leak detection library for Android. We might replace this with built-in support of Android Studio IDE that's coming in a later version."
+  },
+  {
+    "name": "Typescript",
+    "ring": "Trial",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "FALSE",
+    "description": "Typescript is a superset of Javascript developed by Microsoft (and others) that adds an optional static type system to Javascript, which - if the assertion is true - should help maintainability of large Javascript codebases and make it easier to develop in it."
+  },
+  {
+    "name": "Contentful",
+    "ring": "Trial",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "Headless CMS. Flexible, build in environment support. Easy to use admin UI(Robin likes it). Easy to integrate with Gatsby or Next.js. Hemnet has trialed it with Hemnet Utland. Good replacement for Wordpress"
+  },
+  {
+    "name": "Serverless (framework)",
+    "ring": "Trial",
+    "quadrant": "Platforms",
+    "isNew": "FALSE",
+    "description": "A framework for building serverless applications. It takes care of infrastructure provisioning, packaging and deployment of the application as well as tools for running your serverless services locally. It is widely used with around 35k stars on Github and a rich eco system with plugins to extend the functionality. It is vendor agnostic with support for all major cloud providers. AWS' equivalent is Serverless Application Model (AWS SAM)."
+  }
+]
