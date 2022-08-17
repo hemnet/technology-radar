@@ -504,6 +504,13 @@
     "description": "Apple's own CI service that will be tightly integrated with Xcode. Currently in Beta, should assess when it is released since there are some potential benefits over running CI through Bitrise."
   },
   {
+    "name": "dry-monads",
+    "ring": "Assess",
+    "quadrant": "Languages and Frameworks",
+    "isNew": "TRUE",
+    "description": "dry-monads is a ruby gem that provides more tools for using functional programming in ruby. We are mainly assessing how the gem works when using result-based error handling in favor of exceptions."
+  },  
+  {
     "name": "Rust",
     "ring": "Hold",
     "quadrant": "Languages and Frameworks",
