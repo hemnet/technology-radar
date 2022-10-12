@@ -4,13 +4,21 @@ We document Hemnet’s technology landscape with a Technology Radar. It covers t
 
 ## Assessment definitions
 
-**ADOPT** - Technologies with broad adoption, in which Hemnet is willing to invest long-term.
+## ✅ **ADOPT** 
 
-**TRIAL** - Captures all current experiments in production.
+- Technologies with broad adoption, in which Hemnet is willing to invest long-term.
 
-**ASSESS** - Active, non-production assessments of promising technologies and trends.
+## 🧪 **TRIAL**
 
-**HOLD** - Discouraged from broad adoption where Hemnet is not willing to invest further; no new applications may use this technology.
+ - Captures all current experiments in production.
+
+## 🔬️ **ASSESS**
+
+- Active, non-production assessments of promising technologies and trends.
+
+##  🛑 **HOLD**
+
+ - Discouraged from broad adoption where Hemnet is not willing to invest further; no new applications may use this technology.
 
 ## How we maintain it
 
